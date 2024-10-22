@@ -1,0 +1,27 @@
+main{
+    height: 90dvh;
+    width: 100dvw;
+    border: 1px solid black;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    section {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        width: 100%;
+    
+        p {
+            max-width: 40%;
+        }
+
+        img{
+            margin: auto;
+            width: 25%;
+            max-height: 50dvh;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
